@@ -1,0 +1,14 @@
+
+FROM python:3.8-slim-buster
+
+
+WORKDIR /main
+
+
+ADD . /main
+
+
+RUN pip install --no-cache-dir -r requirements.txt
+RUN  export PROJECT_PORT=5000
+
+CMD ["python", "main.py"]

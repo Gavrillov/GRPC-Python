@@ -1,0 +1,4 @@
+{
+  "gRPC_HOST": "localhost",
+  "Grpc_port": "50051"
+}

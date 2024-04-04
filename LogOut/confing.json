@@ -1,0 +1,5 @@
+{
+  "gRPC_HOST": "[::]",
+  "Grpc_port": "50051",
+  "Project_name": "name 0.1.1"
+}

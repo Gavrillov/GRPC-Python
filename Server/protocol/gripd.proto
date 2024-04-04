@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package Server;
+
+message HelloRequest {
+    string uuid = 1;
+    string Level = 2;
+    string discriptionlevel= 3;
+    string returned = 4;
+    string contaner= 5;
+    string contanerip = 6;
+
+}
+
+message  HelloResponse {
+    string uuid = 1;
+    int32 LogStatus = 2;
+}
+
+service MyService {
+    rpc SayHello (HelloRequest) returns (HelloResponse);
+}
